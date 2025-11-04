@@ -6,7 +6,7 @@ import time
 # --- Gemini API Configuration ---
 # NOTE: The Canvas environment is set up to handle authentication if the key is empty.
 # If running locally, you must install 'requests' and optionally provide a key.
-API_KEY = "AIzaSyBWCfqhaIzcwlxWApVKuWgbSlFwGcoV0xQ" 
+API_KEY = "YOUR_GEMINI_API_KEY" 
 # UPDATED: Changed the model endpoint to use gemini-2.0-flash as requested
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 MODEL_ID = "Gemini 2.0 Flash" # UPDATED: For display purposes
@@ -205,18 +205,3 @@ if st.button('🚀 Generate & Summarize', type="primary"):
 
             with st.expander("View Model-Generated Abstract (Input for Summarization)"):
                 st.code(generated_abstract, language='text')
-
-#st.markdown("""
-#### 🛠️ Prerequisites for Running This Code
-#
-#1.  **Install Python Libraries:** This version requires the `requests` library for API calls.
-#    ```bash
-#    pip install streamlit requests
-#    ```
-#2.  **API Key Requirement:** If you are running this app locally (outside of a hosted Canvas environment), you **MUST** provide a valid Gemini API key by setting the `API_KEY` variable in the script. The current key is blank (`API_KEY = ""`).
-#3.  **Save the file** as `research_summarizer.py`.
-#4.  **Run the app:**
-#    ```bash
-#    streamlit run research_summarizer.py
-#    ```
-#""")
