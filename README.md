@@ -1,6 +1,8 @@
 # Your-AI-Research-Assistant
 This AI tool generates realistic research abstracts from just a title, offers customizable summaries, and ensures privacy with local execution using Streamlit and Hugging Face. Optimized with Apple MPS, it delivers fast, smooth, and secure performance for researchers.
 
+Find YouTube Video Demo Here: https://www.youtube.com/watch?v=WXZOS3-3it4
+
 📚 Generative Research Paper Summarizer
 
 This project is a lightweight, two-stage AI application built with Streamlit and Hugging Face models designed to combat information overload by dynamically generating and then summarizing research paper abstracts based on a user-provided title.
